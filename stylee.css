@@ -115,3 +115,7 @@ body{
     opacity: 1;
     pointer-events: auto;
 }
+.footer{
+    text-align: center;
+    padding: 10px;
+}
