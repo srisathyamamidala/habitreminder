@@ -45,8 +45,8 @@ body{
     height: 100%;
     border: none;
     outline: none;
-    background: #8e49e8;
-    color: #fff;
+    background: #49e886;
+    color: rgb(255, 255, 255);
     font-size: 22px;
     cursor: pointer;
     border-radius: 3px;
@@ -80,11 +80,11 @@ body{
 .habitList li span{
     position: absolute;
     right: -45px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     width: 45px;
     text-align: center;
     border-radius: 0 3px 3px 0;
-    background: #e74c3c;
+    background: #3ca3e7;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -104,7 +104,7 @@ body{
     outline: none;
     background: #8e49E8;
     align-items: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
