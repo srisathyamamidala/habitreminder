@@ -7,15 +7,27 @@
 body{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(#68EACC 0%, #497BE8 100%);
+    background-image: url(images/habit.jpg);
 }
 
 
+header {
+    background-color: pink;
+}
+
+header h1 {
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
 .wrapper{
     margin: 120px auto;
     max-width: 400px;
     width: 100%;
-    background: #fff;
+    background: rgb(195, 235, 245);
     border-radius: 5px;
     padding: 25px
 }
@@ -84,7 +96,7 @@ body{
     width: 45px;
     text-align: center;
     border-radius: 0 3px 3px 0;
-    background: #3ca3e7;
+    background:#f3f7fa;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -102,9 +114,9 @@ body{
 .footer button{
     border: none;
     outline: none;
-    background: #8e49E8;
+    background: #8137e2;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: rgb(181, 168, 228);
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
@@ -116,7 +128,19 @@ body{
     opacity: 1;
     pointer-events: auto;
 }
+.container-fluid{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(229, 245, 149);2
+    
+}
 .footer{
     text-align: center;
     padding: 10px;
+    background-color: pink;
+}
+.footer-bgwhite{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(240, 241, 146);
 }
