@@ -18,7 +18,7 @@ text-align:center;
 }
 .box h1
 {
-   color:royalblue;
+   color:rgb(208, 215, 236);
    text-transform:uppercase;
    font-weight: 700;
 
@@ -60,4 +60,8 @@ text-align:center;
     transition:0.25px;
     cursor:pointer;
 }
-
+.footer-bgwhite{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(240, 241, 146);
+}
