@@ -36,6 +36,7 @@ html, body {
 .wrapper header{
    font-size: 30px;
    font-weight: 600;
+   
 }
 .wrapper .inputField{
     display: flex;
@@ -150,11 +151,6 @@ html, body {
     padding: 10px;
     background-color: rgb(240, 241, 146);
 }
-
-
-
-
-
 .container{
     width: 40%;
     min-width: 450px;
