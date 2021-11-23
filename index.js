@@ -1,5 +1,5 @@
  // Your web app's Firebase configuration
- const firebaseConfig = {
+ var firebaseConfig = {
     apiKey: "AIzaSyCVstBMVGv2MMFnfDIsM32NkyySsHUIHZs",
     authDomain: "login-e7a7c.firebaseapp.com",
     projectId: "login-e7a7c",
@@ -43,6 +43,7 @@
 
           alert(error_message)
       })
+    }
     
   function validate_email(email) {
       expression = /^[@]+@\w+(\.\w+)+\w$/.test(str);
@@ -61,5 +62,5 @@
       }
   }
 }
-  }
+  
 
